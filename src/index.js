@@ -2,10 +2,9 @@ import './css/styles.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-// import fetchPictures from './js/fetchPictures';
 import { galleryMarkup } from './js/markup';
 import OnlyScroll from 'only-scrollbar';
-import { fetchPictures } from './js/fetchPictures';
+// import { fetchPictures } from './js/fetchPictures';
 const axios = require('axios').default;
 
 const gallery = document.querySelector('.gallery');
